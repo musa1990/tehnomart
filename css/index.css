@@ -9,7 +9,7 @@ p, span, a, ul, h2{
     margin: 0px;
 }
 body {
-  background: #000000 url("../technomart-catalog.jpg") no-repeat 50% 3px;
+  background: #000000 url("../technomart-index.jpg") no-repeat 50% 3px;
   background-size: 1200px auto;
 }
 header {
@@ -34,7 +34,8 @@ header .logo{
 }
 .main-search{
     width: 30px;
-    height:40px;
+    display: inline-block;
+    height:32px;
     background: rgba(255, 45, 82, 0.2);
   box-shadow: 0 0 0 3px rgb(255, 45, 82);
 }
@@ -42,6 +43,7 @@ header .logo{
     margin-top: 15px;
     display: inline-block;
 }
+
 form {
     width: 120px;
     margin-left: 10px;
@@ -70,7 +72,8 @@ form a,
 .under-header{
    margin-bottom: 33px; 
 }
-.under-header p, .under-header div{
+.under-header p, .under-header div,
+autorizated-block a{
     display: inline-block;
     vertical-align: top;
     
@@ -102,111 +105,65 @@ form a,
 .autorizated-block{
     display: inline-block;
     width: 300px;
-    height: 80px;
+    height: 40px;
     margin-left: 40px;
     background: rgba(255, 45, 82, 0.2);
   box-shadow: 0 0 0 3px rgb(255, 45, 82);
 }
-.user-name{
+.user-name, .register-link{
     display: inline-block;
-    width: 300px;
-    height: 45px;
+    width: 120px;
+    height: 40px;
     background: rgba(255, 45, 82, 0.2);
   box-shadow: 0 0 0 3px rgb(255, 245, 82);
+    margin-left: 20px;
    
+}
+.register-link{
+     margin-left: 10px;
+    width: 140px;
+    
 }
 .header-second{
     height: 60px;
     background: rgba(255, 45, 82, 0.2);
   box-shadow: 0 0 0 3px rgb(255, 245, 82);
+    margin-top: 33px;
+    margin-bottom: 60px;
 }
 .header-menu li,
 .inside-navigation li{
      display: inline-block;
 }
-
-.inside-navigation{
-    height: 60px;
-    background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 245, 82);
+.wrapper-items :first-child{
+    margin-left: 0;
 }
-
-h2{
+.items{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+    display: block;
+    width: 300px;
+    height: 122px;
+    background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px yellow;
+}
+.slide{
+    float: left;
+    margin-bottom: 52px;
+}
+.names-block{
     height: 85px;
     background: rgba(255, 45, 82, 0.2);
   box-shadow: 0 0 0 3px rgb(255, 245, 82);
     margin-bottom: 20px;
 }
 
-.main-info{
-    float: left;
-    width: 220px;
-    height: 750px;
-    background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 25, 82)
-}
-
-.main-info-section{
-    height: 40px;
-    width: 220px;
-    background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 245, 82);
-}
-
-.filter{
-   width: 220px;
-    height: 750px;
-    background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(25, 245, 2);
-}
-
-.price{
-    margin-bottom: 190px;
-}
-input{
-    display: block;
-}
-.power-supply{
-    margin-top: 40px;
-}
-button{
-    float: left;
-    margin-top: 80px;
-    margin-left: 0px;
-    padding: 10px 40px;
-}
-
-.main-info-right{
-    float: right;
-    width: 700px;
-    margin-left: 20px;
-    margin-bottom: 60px;
-    background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
-}
-.sorting{
-    margin-bottom: 20px;
-}
-.sorting p, .sorting ul{
-    display: inline-block;
-}
-.sorting ul{
-    margin-left: 10px;
-    height: 40px;
-    width: 465px;
-    background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
-}
-.sorting-right li{
-    display: inline-block;
-    
-}
-
-
  div .products{
-   margin-bottom: 18px;
+   margin-bottom: 23px;
      padding-left: 15px;
      vertical-align: top;
+     margin-right: 15px;
      width: 220px;
      height: 320px;
     display: inline-block;
@@ -214,38 +171,85 @@ button{
      background: rgba(128, 0, 0, 0.2);
   box-shadow: 0 0 0 3px green;
 }
-.father-products div:nth-child(3n+2) {
-    margin-right: 15px;
-    margin-left: 15px;
+.wrapper-company{
+    margin-bottom: 65px;
 }
-.index-content-right ul{
+.father-products :last-child {
+ margin-right: 0;
+}
+.wrapper-company :nth-child(4n+4){
+  margin-right: 0;  
+    
+}
+.popular-company-name{
     display: inline-block;
-    margin-top: 23px;
+    margin-right: 16px;
+    margin-bottom: 17px;
+}
+.wrapper-services{
+    margin-bottom: 100px;
+}
+.wrapper-services ul,
+.wrapper-services div{
+  vertical-align: top;  
+}
+.service, .delivery{
+    margin-top: 128px; 
+    height: 50px;
+    width: 300px;
      background: rgba(128, 0, 0, 0.2);
   box-shadow: 0 0 0 3px green;
 }
-.page-navigation{
+.services-info{
+    width: 400px;
+    margin-bottom: 60px;
+    margin-top: 10px;
     background: rgba(128, 0, 0, 0.2);
   box-shadow: 0 0 0 3px green;
-    margin-top: 35px;
-    height: 35px;
+}
+.services-list, .delivery-block{
+    display: inline-block;
+}
+.services-list li{
+    width: 240px;
+    height: 60px;
+    background: rgba(128, 0, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+.delivery-block{
+    margin-left: 76px;
+}
+.delivery{
+    margin-top: 0px;
+}
+.delivery-info{
+    height: 120px;
+    width: 290px;
+    background: rgba(128, 0, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+.garanty-block, .credit-block{
+    display: none;
+}
+.company-info{
+    margin-bottom: 82px;
+}
+.company-info-left{
+    margin-top: 80px;
+    width: 540px;
+    height: 380px;
+    float: left;
+    background: rgba(128, 0, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+.company-info-right{
+    margin-top: 80px;
     width: 300px;
-}
-.page-navigation li{
-    display: inline-block; 
-}
-.perforators-info-h{
-    margin-top: 60px;
-    height: 45px;
-}
-.items-info{
-    height: 150px;
+    height: 380px;
+    float: right;
     background: rgba(128, 0, 0, 0.2);
   box-shadow: 0 0 0 3px green;
-    
 }
-
-
 footer{
     
     background: rgba(128, 0, 0, 0.2);
@@ -341,4 +345,7 @@ float: left;
   /* Только для оформления сетки */
   background: rgba(128, 0, 0, 0.2);
   box-shadow: 0 0 0 3px red;
+}
+input{
+    display: block;
 }
