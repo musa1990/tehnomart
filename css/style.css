@@ -1,344 +1,368 @@
 html,
 body {
-   min-width: 1122px;
-  margin: 0;
-  padding: 0;
+    min-width: 1122px;
+    margin: 0;
+    padding: 0;
 }
-p, span, a, ul, h2{
+
+p,
+span,
+a,
+ul,
+h2 {
     padding: 0px;
     margin: 0px;
 }
+
 body {
-  background: #000000 url("../technomart-catalog.jpg") no-repeat 50% 3px;
-  background-size: 1200px auto;
+    background: #000000 url("../technomart-catalog.jpg") no-repeat 50% 3px;
+    background-size: 1200px auto;
 }
+
 header {
-  /* Только для оформления сетки */
-  min-height: 70px;
-  background: rgba(0, 128, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
+    background: rgba(0, 128, 0, 0.2);
+    box-shadow: 0 0 0 3px green;
     margin-bottom: 60px;
-  
 }
-header .logo{
+
+header .logo {
     float: left;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
-    min-height: 40px;
+    box-shadow: 0 0 0 3px rgb(255, 45, 82);
     width: 220px;
 }
-.search input{
+
+.search input {
     display: inline-block;
     vertical-align: top;
     float: left;
 }
-.main-search{
+
+.main-search {
     width: 30px;
-    height:40px;
+    height: 40px;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+    box-shadow: 0 0 0 3px rgb(255, 45, 82);
 }
-.main-search-submit{
+
+.main-search-submit {
     margin-top: 15px;
     display: inline-block;
 }
+
 form {
     width: 120px;
     margin-left: 10px;
     height: 40px;
     float: left;
     background: rgba(0, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(0, 255, 82);
+    box-shadow: 0 0 0 3px rgb(0, 255, 82);
     margin-bottom: 50px;
 }
 
-.basket-form{
+.basket-form {
     float: right;
     width: 300px;
     background: rgba(0, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px white;
-}
-form a,
-.marker{
-    float: right;
-    width: 150px;
-    height:40px;
-    background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+    box-shadow: 0 0 0 3px white;
 }
 
-.under-header{
-   margin-bottom: 33px; 
+form a,
+.marker {
+    float: right;
+    width: 150px;
+    height: 40px;
+    background: rgba(255, 45, 82, 0.2);
+    box-shadow: 0 0 0 3px rgb(255, 45, 82);
 }
-.under-header p, .under-header div{
+
+.under-header {
+    margin-bottom: 33px;
+}
+
+.under-header p,
+.under-header div {
     display: inline-block;
     vertical-align: top;
-    
 }
-.header-info{
+
+.header-info {
     display: inline-block;
     width: 220px;
     height: 80px;
     margin: 0px 0px 0px 50px;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
-}
-.main-number-adress{
-     display: inline-block;
-     width:270px;
-    height: 80px;
-     margin-left: 50px;
-    background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
-}
-.main-number{
-    display: inline-block;
-    width:270px;
-    height: 45px;
-    box-shadow: 0 0 0 3px rgb(255, 245, 82);
-    
+    box-shadow: 0 0 0 3px rgb(255, 45, 82);
 }
 
-.autorizated-block{
+.main-number-adress {
+    display: inline-block;
+    width: 270px;
+    height: 80px;
+    margin-left: 50px;
+    background: rgba(255, 45, 82, 0.2);
+    box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+.main-number {
+    display: inline-block;
+    width: 270px;
+    height: 45px;
+    box-shadow: 0 0 0 3px rgb(255, 245, 82);
+}
+
+.autorizated-block {
     display: inline-block;
     width: 300px;
     height: 80px;
     margin-left: 40px;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+    box-shadow: 0 0 0 3px rgb(255, 45, 82);
 }
-.user-name{
+
+.user-name {
     display: inline-block;
     width: 300px;
     height: 45px;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 245, 82);
-   
+    box-shadow: 0 0 0 3px rgb(255, 245, 82);
 }
-.header-second{
+
+.header-second {
     height: 60px;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 245, 82);
+    box-shadow: 0 0 0 3px rgb(255, 245, 82);
 }
+
 .header-menu li,
-.inside-navigation li{
-     display: inline-block;
+.inside-navigation li {
+    display: inline-block;
 }
 
-.inside-navigation{
+.inside-navigation {
     height: 60px;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 245, 82);
+    box-shadow: 0 0 0 3px rgb(255, 245, 82);
 }
 
-h2{
+h2 {
     height: 85px;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 245, 82);
+    box-shadow: 0 0 0 3px rgb(255, 245, 82);
     margin-bottom: 20px;
 }
 
-.main-info{
+.main-info {
     float: left;
     width: 220px;
     height: 750px;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 25, 82)
+    box-shadow: 0 0 0 3px rgb(255, 25, 82)
 }
 
-.main-info-section{
+.main-info-section {
     height: 40px;
     width: 220px;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 245, 82);
+    box-shadow: 0 0 0 3px rgb(255, 245, 82);
 }
 
-.filter{
-   width: 220px;
+.filter {
+    width: 220px;
     height: 750px;
     background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(25, 245, 2);
+    box-shadow: 0 0 0 3px rgb(25, 245, 2);
 }
 
-.price{
+.price {
     margin-bottom: 190px;
 }
-input{
+
+input {
     display: block;
 }
-.power-supply{
+
+.power-supply {
     margin-top: 40px;
 }
-button{
+
+button {
     float: left;
     margin-top: 80px;
     margin-left: 0px;
     padding: 10px 40px;
 }
 
-.main-info-right{
+.main-info-right {
     float: right;
     width: 700px;
     margin-left: 20px;
     margin-bottom: 60px;
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
+    box-shadow: 0 0 0 3px green;
 }
-.sorting{
+
+.sorting {
     margin-bottom: 20px;
 }
-.sorting p, .sorting ul{
+
+.sorting p,
+.sorting ul {
     display: inline-block;
 }
-.sorting ul{
+
+.sorting ul {
     margin-left: 10px;
     height: 40px;
     width: 465px;
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
-}
-.sorting-right li{
-    display: inline-block;
-    
+    box-shadow: 0 0 0 3px green;
 }
 
-
- div .products{
-   margin-bottom: 18px;
-     padding-left: 15px;
-     vertical-align: top;
-     width: 220px;
-     height: 320px;
+.sorting-right li {
     display: inline-block;
-     box-sizing: border-box;
-     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
 }
+
+div .products {
+    margin-bottom: 18px;
+    padding-left: 15px;
+    vertical-align: top;
+    width: 220px;
+    height: 320px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: rgba(128, 0, 0, 0.2);
+    box-shadow: 0 0 0 3px green;
+}
+
 .father-products div:nth-child(3n+2) {
     margin-right: 15px;
     margin-left: 15px;
 }
-.index-content-right ul{
+
+.index-content-right ul {
     display: inline-block;
     margin-top: 23px;
-     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
-}
-.page-navigation{
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
+    box-shadow: 0 0 0 3px green;
+}
+
+.page-navigation {
+    background: rgba(128, 0, 0, 0.2);
+    box-shadow: 0 0 0 3px green;
     margin-top: 35px;
     height: 35px;
     width: 300px;
 }
-.page-navigation li{
-    display: inline-block; 
+
+.page-navigation li {
+    display: inline-block;
 }
-.perforators-info-h{
+
+.perforators-info-h {
     margin-top: 60px;
     height: 45px;
 }
-.items-info{
+
+.items-info {
     height: 150px;
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
-    
+    box-shadow: 0 0 0 3px green;
 }
 
-
-footer{
-    
+footer {
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
+    box-shadow: 0 0 0 3px green;
 }
-.footer-logo{
-   background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
-    min-height: 65px;
+
+.footer-logo {
+    background: rgba(255, 45, 82, 0.2);
+    box-shadow: 0 0 0 3px rgb(255, 45, 82);
     width: 220px;
-    display:inline-block;
+    display: inline-block;
 }
-.secondary-footer{
+
+.secondary-footer {
     margin-top: 53px;
     height: 190px;
 }
-.secondary-footer ul{
+
+.secondary-footer ul {
     margin-left: 155px;
     width: 560px;
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
+    box-shadow: 0 0 0 3px green;
     height: 65px;
     display: inline-block;
 }
-.footer-main-list li, .footer-bottom-list li{
+
+.footer-main-list li,
+.footer-bottom-list li {
     display: inline-block;
-    
 }
+
 .footer-main-bottom span,
-.footer-main-bottom ul{
+.footer-main-bottom ul {
     vertical-align: top;
 }
 
-.footer-adress{
+.footer-adress {
     margin-top: 25px;
     display: inline-block;
     width: 340px;
-     height: 50px;
+    height: 50px;
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px yellow;
+    box-shadow: 0 0 0 3px yellow;
 }
-.secondary-footer .footer-bottom-list{
+
+.secondary-footer .footer-bottom-list {
     margin-left: 35px;
     height: 50px;
     margin-top: 25px;
-    
 }
-.main-footer{
+
+.main-footer {
     padding-top: 30px;
     padding-bottom: 20px;
     height: 60px;
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px white;
+    box-shadow: 0 0 0 3px white;
 }
-.rights{
+
+.rights {
     height: 50px;
-float: left;
+    float: left;
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px white;
+    box-shadow: 0 0 0 3px white;
 }
 
 .footer-social {
-  float: left;
-  width: 180px;
+    float: left;
+    width: 180px;
     margin-left: 140px;
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px white;
-
-  /* Только для оформления сетки */
-  min-height: 50px;
+    box-shadow: 0 0 0 3px white;
 }
 
 .footer-copyright {
-  float: right;
-  width: 140px;
+    float: right;
+    width: 140px;
     margin-left: 20px;
     background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px white;
-
-  /* Только для оформления сетки */
-  min-height: 50px;
+    box-shadow: 0 0 0 3px white;
 }
 
- .clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+
 .container {
-  width: 940px;
-  padding: 0 10px;
-  margin: 0 auto;
-  /* Только для оформления сетки */
-  background: rgba(128, 0, 0, 0.2);
-  box-shadow: 0 0 0 3px red;
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+    /* Только для оформления сетки */
+    background: rgba(128, 0, 0, 0.2);
+    box-shadow: 0 0 0 3px red;
 }
