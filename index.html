@@ -1,55 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>Catalog-item</title>
-    <link href="css/index.css" rel="stylesheet">
-  </head>
-  <body>
-    <header> <!-- Лишний класс -->
-      <div></div>
+    <title>Catalog</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet"> </head>
+
+<body>
+    <header>
+      <div class="header-fon">
       <div class="container clearfix">
         <a class="logo" href="#" title="#">Техномарт</a>
         
         <form> <!-- Разделяем на две формы -->
+         <span class="fa fa-search"></span>
           <input class="main-search" type="search" name="q">
           <input class="main-search-submit" type="submit" value="Поиск:">
         </form>
           
-        <a class="marker" href="#" title="#">Закладки: 0</a>
+        <a class="marker" href="#" title="#"><span class="fa fa-bookmark"></span>Закладки: 0</a>
+        
         <form class="basket-form">
-          <a class="basket" href="#" title="#">Корзина :0</a>
+          <a class="basket" href="#" title="#"><span class="fa fa-cart-plus"></span>Корзина :0</a>
           <a class="booking" href="#" title="#">Оформить заказ</a> <!-- Передалать в форму -->
         </form>
+        </div>
+        </div>
+        
+        <div class="container clearfix">
         <div class="under-header">
-          <p class="header-info">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+          <p class="header-info">Интернет-магазин строительных материалов <br> и инструментов для ремонта</p>
           
           <div class="main-number-adress">
-            <span class="main-number">+7 (812) 555-05-55</span>
+            <span class="main-number"><span class="fa fa-phone"></span>+7 (812) 555-05-55</span>
             <span class="main-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
           </div>
           
           <div class="autorizated-block">
-            <a class="user-name" href="#" title="#">Войти</a>
-            <a class="register-link" href="#" title="#">Регистрация</a>
-            
+              <a class="user-name" href="#" title="#"><span class="fa fa-user"></span>Равшан Джамшутович<span class="fa fa-sign-out"></span></a>
+            <a class="orders" href="#" title="#">Мои заказы</a>
+            <a class="cabinet" href="#" title="#"><span class="fa fa-circle"></span>Личный кабинет</a>
           </div>
           
-          <nav class="header-second"> <!-- Передалать на NAV -->
-            <ul class="header-menu">
-              <li><a href="#" title="#">Главная</a></li>
-              <li><a href="#" title="#">Компания</a></li>
-              <li><a href="#" title="#">Каталог</a></li>
-              <li><a href="#" title="#">Новости</a></li>
-              <li><a href="#" title="#">Спецпредложения</a></li>
-              <li><a href="#" title="#">Доставка</a></li>
-              <li><a href="#" title="#">Контакты</a></li>
-            </ul>
-          </nav>
+        </div>
+        
+        <div class="header-second">
+         
+          <ul class="header-menu">
+            <li><a href="#" title="#">Главная</a></li>
+            <li><a href="#" title="#">Компания</a></li>
+            <li><a href="#" title="#">Каталог</a></li>
+            <li><a href="#" title="#">Новости</a></li>
+            <li><a href="#" title="#">Спецпредложения</a></li>
+            <li><a href="#" title="#">Доставка</a></li>
+            <li><a href="#" title="#">Контакты</a></li>
+          </ul>
+           
         </div>
       </div>
-    </header> <!-- Смысловой пробел (как в барбершопе 2-мя пустыми строками) -->
-   
+    </header>
    
     <main class="container">
       <div class="wrapper-items clearfix">
@@ -201,8 +214,8 @@
     </main>
     
     
-    <footer class="secondary-footer container"> <!-- FOOTER -->
-      <div class="footer-main-top">
+    <footer class="secondary-footer"> <!-- FOOTER -->
+      <div class="container footer-main-top">
         <a href="#" title="#" class="footer-logo">Техномарт</a> <!-- Ссылка -->
         
         <ul class="footer-main-list">
@@ -214,8 +227,8 @@
         </ul>
         
       </div>
-      <div class="footer-main-bottom">
-        <span class="footer-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-</span>
+      <div class="container footer-main-bottom">
+        <span class="footer-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</span>
         
         <ul class="footer-bottom-list">
           <li><a href="#" title="#">Материалы</a></li>
@@ -230,9 +243,9 @@
       <div class="container clearfix">
         <p class="rights">© 2010–2016 Компания «Техномарт»<br>Все права защищены</p>
         <section class="footer-social">
-          <a class="social-btn social-btn-vk" href="#" title="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#" title="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#" title="#">Инстаграм</a>
+          <a class="social-btn social-btn-vk" href="#" title="#">Вконтакте<i class="fa fa-vk" aria-hidden="true"></i></a>
+          <a class="social-btn social-btn-fb" href="#" title="#">Фейсбук<i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a class="social-btn social-btn-inst" href="#" title="#">Инстаграм<i class="fa fa-instagram" aria-hidden="true"></i></a>
         </section>
         <section class="footer-copyright">
           <p>Разработано -</p>
